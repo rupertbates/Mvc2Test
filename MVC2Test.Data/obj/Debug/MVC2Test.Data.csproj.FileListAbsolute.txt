@@ -1,0 +1,16 @@
+c:\Projects\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Data.dll.config
+c:\Projects\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Data.dll
+c:\Projects\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Data.pdb
+c:\Projects\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Domain.dll
+c:\Projects\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Domain.pdb
+c:\Projects\MVC2Test\MVC2Test.Data\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\MVC2Test\MVC2Test.Data\obj\Debug\MVC2Test.Data.dll
+c:\Projects\MVC2Test\MVC2Test.Data\obj\Debug\MVC2Test.Data.pdb
+L:\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Data.dll.config
+L:\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Data.dll
+L:\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Data.pdb
+L:\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Domain.dll
+L:\MVC2Test\MVC2Test.Data\bin\Debug\MVC2Test.Domain.pdb
+L:\MVC2Test\MVC2Test.Data\obj\Debug\ResolveAssemblyReference.cache
+L:\MVC2Test\MVC2Test.Data\obj\Debug\MVC2Test.Data.dll
+L:\MVC2Test\MVC2Test.Data\obj\Debug\MVC2Test.Data.pdb

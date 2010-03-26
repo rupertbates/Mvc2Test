@@ -1,0 +1,10 @@
+c:\Projects\MVC2Test\MVC2Test.Domain\bin\Debug\MVC2Test.Domain.dll
+c:\Projects\MVC2Test\MVC2Test.Domain\bin\Debug\MVC2Test.Domain.pdb
+c:\Projects\MVC2Test\MVC2Test.Domain\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\MVC2Test\MVC2Test.Domain\obj\Debug\MVC2Test.Domain.dll
+c:\Projects\MVC2Test\MVC2Test.Domain\obj\Debug\MVC2Test.Domain.pdb
+L:\MVC2Test\MVC2Test.Domain\bin\Debug\MVC2Test.Domain.dll
+L:\MVC2Test\MVC2Test.Domain\bin\Debug\MVC2Test.Domain.pdb
+L:\MVC2Test\MVC2Test.Domain\obj\Debug\ResolveAssemblyReference.cache
+L:\MVC2Test\MVC2Test.Domain\obj\Debug\MVC2Test.Domain.dll
+L:\MVC2Test\MVC2Test.Domain\obj\Debug\MVC2Test.Domain.pdb

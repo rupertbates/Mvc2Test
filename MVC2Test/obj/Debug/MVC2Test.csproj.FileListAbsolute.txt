@@ -1,0 +1,10 @@
+c:\Projects\MVC2Test\MVC2Test\bin\MVC2Test.dll
+c:\Projects\MVC2Test\MVC2Test\bin\MVC2Test.pdb
+c:\Projects\MVC2Test\MVC2Test\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\MVC2Test\MVC2Test\obj\Debug\MVC2Test.dll
+c:\Projects\MVC2Test\MVC2Test\obj\Debug\MVC2Test.pdb
+L:\MVC2Test\MVC2Test\bin\MVC2Test.dll
+L:\MVC2Test\MVC2Test\bin\MVC2Test.pdb
+L:\MVC2Test\MVC2Test\obj\Debug\ResolveAssemblyReference.cache
+L:\MVC2Test\MVC2Test\obj\Debug\MVC2Test.dll
+L:\MVC2Test\MVC2Test\obj\Debug\MVC2Test.pdb
