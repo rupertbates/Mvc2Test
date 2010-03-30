@@ -4,6 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Castle.Windsor;
+using Castle.MicroKernel.Registration;
+using MvcContrib.Castle;
+using MVC2Test.Domain;
+using MVC2Test.Data;
+using MVC2Test.Domain.RepositoryInterfaces;
+using MVC2Test.Data.Repositories;
 
 namespace MVC2Test
 {
@@ -29,6 +36,27 @@ namespace MVC2Test
 			AreaRegistration.RegisterAllAreas();
 
 			RegisterRoutes(RouteTable.Routes);
+			IWindsorContainer container = new WindsorContainer();
+			//ObjectContext
+			container.Register(Component
+				.For<ContentModelContainer>()
+				.ImplementedBy<ContentModelContainer>()
+				.LifeStyle.PerWebRequest);
+			
+			//Repositories
+			container.Register(Component
+				.For<IContentRepository>()
+				.ImplementedBy<ContentRepository>()
+				.LifeStyle.PerWebRequest);
+
+
+			//add all controllers to container
+			container.Register(AllTypes
+									.Of<Controller>()
+									.FromAssembly(typeof(MvcApplication).Assembly)
+													.Unless(t => t.IsAbstract)); 
+			ControllerBuilder.Current.SetControllerFactory(new WindsorControllerFactory(container));
+			
 		}
 	}
 }

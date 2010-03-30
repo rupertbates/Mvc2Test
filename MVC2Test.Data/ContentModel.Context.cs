@@ -13,7 +13,7 @@ using System.Data.EntityClient;
 
 namespace MVC2Test.Domain
 {
-    public partial class ContentModelContainer : ObjectContext
+    public partial class ContentModelContainer : ObjectContext, IContentModelContainer
     {
         public const string ConnectionString = "name=ContentModelContainer";
         public const string ContainerName = "ContentModelContainer";
@@ -44,7 +44,7 @@ namespace MVC2Test.Domain
     
         public ObjectSet<Content> Content
         {
-            get { return _content  ?? (_content = CreateObjectSet<Content>("Content")); }
+            get { return _content   ?? (_content = CreateObjectSet<Content>("Content")); }
         }
         private ObjectSet<Content> _content;
     
